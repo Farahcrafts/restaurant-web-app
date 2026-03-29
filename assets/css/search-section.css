@@ -32,13 +32,18 @@
   border-color: black;
   background-color: #fefbe3;
 }
+form{
+  display: flex;
+  column-gap: 0.3em;
+  align-items: center;
+}
 .search-form-btn {
   height: 2.2em;
   background-color: black;
   border-top-right-radius: 1em;
   border-bottom-right-radius: 1em;
-  border-width: 2px;
+  border:none;
   color: #fefbe3;
   font-family: "blockberthold";
-  padding: 5px 10px;
+  font-size: 0.87em;
 }
