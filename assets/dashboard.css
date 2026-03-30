@@ -1,0 +1,82 @@
+@font-face {
+  font-family: "blockberthold";
+  src: url("../assets/fonts/blockberthold.ttf") format("truetype");
+}
+
+body {
+  margin-left: 20em;
+  margin-top: 2em;
+  font-family: "blockberthold";
+  font-weight: 100;
+  background-color: #fefbe3;
+}
+.dashboard-container {
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 4em;
+}
+
+.dashboard-container-sidebar {
+  background-color: rgb(203, 14, 14);
+  color: antiquewhite;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 15em;
+  padding: 3em 1em;
+  display: flex;
+  justify-content: center;
+}
+.dashboard-container-sidebar ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1em;
+  align-items: start;
+  justify-content: start;
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+}
+
+.dashboard-container-main {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1em;
+  width: 100%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid black;
+  padding: 0.5em;
+  text-align: center;
+}
+
+td button {
+  background-color: red;
+  border: none;
+  border-radius: 1em;
+  padding: 0.5em 1em;
+}
+.td-dish-img img {
+  width: 4em;
+  height: 4em;
+  object-fit: cover;
+}
+
+.section1 button,
+.section2 button {
+  background-color: rgba(255, 0, 0, 0.751);
+  padding: 0.5em 2em;
+  color: #fefbe3;
+  font-family: "blockberthold";
+  border-radius: 1em;
+  border-style: solid;
+  border-color: black;
+}
+

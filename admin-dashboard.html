@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="./assets/dashboard.css" />
+  </head>
+  <body>
+    <div class="dashboard-container">
+      <div class="dashboard-container-sidebar">
+        <ul>
+          <li>CHOMPO</li>
+          <li>Dashboard</li>
+          <li>Categories</li>
+          <li>Food Menus</li>
+          <li>Orders</li>
+        </ul>
+      </div>
+      <div class="dashboard-container-main">
+        <div class="main-section section1">
+          <h2>Welcome back admin!</h2>
+          <button>Logout</button>
+        </div>
+        <div class="main-section section2">
+          <h3>Manage food items:</h3>
+          <button>Add new dish</button>
+        </div>
+        <div class="main-section section3">
+          <h3>Data Table:</h3>
+          <div class="table-container">
+            <table>
+              <thead>
+                <!-- first row -->
+                <tr>
+                  <th>Id</th>
+                  <th>Dish image</th>
+                  <th>Dish Name</th>
+                  <th>Price</th>
+                  <th>Actions</th>
+                </tr>
+              </thead>
+              <!-- 2nd row -->
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td class="td-dish-img">
+                    <img
+                      src="./assets/images/categories/pasta.png"
+                      alt="dish img"
+                    />
+                  </td>
+                  <td>Dish Name</td>
+                  <td>Price</td>
+                  <td><button>edit</button> <button>delete</button></td>
+                </tr>
+                <!-- 3rd row -->
+                <tr>
+                  <td>1</td>
+                  <td class="td-dish-img">
+                    <img
+                      src="./assets/images/categories/pasta.png"
+                      alt="dish img"
+                    />
+                  </td>
+                  <td>Dish Name</td>
+                  <td>Price</td>
+                  <td><button>edit</button> <button>delete</button></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

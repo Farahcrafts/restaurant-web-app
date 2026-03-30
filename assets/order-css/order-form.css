@@ -1,0 +1,49 @@
+.comfirming-order-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  padding: 2em;
+  border-radius: 1em;
+}
+.comfirming-order-container div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.comfirming-order-form-container div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.comfirming-order-container div div {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 1em;
+  align-items: center;
+  margin: 1em;
+}
+
+.comfirming-order-container div input {
+  padding: 0.5em;
+  background-color: beige;
+  border-radius: 1em;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+
+.comfirming-order-container div button {
+  background-color: black;
+  padding: 1em 2em;
+  border: none;
+  color: aliceblue;
+  border-radius: 1em;
+
+  width: fit-content;
+  align-self: center;
+  cursor: pointer;
+}
